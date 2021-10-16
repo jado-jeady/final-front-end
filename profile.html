@@ -1,0 +1,141 @@
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<style type="text/css">
+	.formholder{
+		background-color: black;
+		height: 500px;
+		margin-left: 100px;
+    margin-top: 20px;
+		box-shadow: 0px 0px 10px 0px black;
+		border-radius: 9px;
+
+	}
+  .party{
+    margin-top: 40px;
+    height: 250px;
+   background-color: white;
+   width: 200px;
+   box-shadow: 0px 0px 10px 0px black;
+   margin-left: 20px;
+   float: left;
+  }
+  .img{
+    width: 200px;
+    height: 150;
+    border: bold;
+  }
+  .partypub{
+font-size: 14px;
+color: black;
+margin-top: 10px;
+line-height: 10px;
+text-align: center;
+  }
+   .partypub:hover{
+font-size: 15px;
+color: brown;
+text-align: center;
+  }
+  h6{margin-left: 20px;
+    margin-top: 20px;}
+</style>
+
+
+<div class="container-fluid bg-primary">
+
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link " href="homeuser.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="parties.html">Parties</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="buyticket.html" >Buy Ticket</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown " href="history.html" >History</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active " href="profile.html" >Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html" >About Us</a>
+                </li>
+              </ul></div>
+            
+
+            <a href="profile.html"><img src="profile.png" width="60" height="60" style="margin-top: -10px;"></a><h4 style="color: white; margin-right: 100px;">Jeady</h4>
+              <form class="d-flex" >
+                <a href="index.html" class="btn btn-light btn-outline-secondary" style="width: 200px; margin-right: 30px;">Log Out</a>
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary btn-outline-light" type="submit">Search</button>
+              </form>
+          </div>
+        </nav>
+</div>
+
+
+<div class="row bg-light" style="margin-top: 70px; height: 700px;">
+  <br>
+  <div class="formholder col-md-4 bg-light"> <br>
+   <div class="col-md-12 bg-secondary" style="margin-top: -10px; height: 50px;border-top-left-radius: 0px;"> <h2 style="margin-left: 40px; color:white; ">  Profile</h2></div>
+    <img src="profile.png" style=" border-width: 2px;  box-shadow: 0px 0px 1px 0px; width: 200px; height: 200px;" alt="Your profile here">
+
+    <div class="detaile" style="color: gray; line-height: 30px; height: 200px; width: 300px; ">
+<button class="btn-sm btn-secondary btn-outline-secondary" style="margin-left: -3px;">Edit Profile</button><br>
+      <h6> Username:  Jeady</h6>
+      <h6>Names: Nzaramyimana jeady</h6>
+      <h6>Phine: +250782228575</h6>
+      <h6>Address: Kigali,kicukiro-rwandex</h6>
+      <h6>E-mail: Jeady@gmail.com</h6>
+    </div>
+
+      </div>
+
+
+  <div class="formholder col-md-4 bg-light" style="margin-left: 100px;"> <br>
+   <div class="col-md-12 bg-secondary" style="margin-top:-10px; height: 50px;"> <h2 style="margin-left: 40px; color:white; ">Complain</h2></div>
+    
+
+      <div class="alert alert-info col-md-12" style=" width: ;">if you are about to claim, make sure you use a polite language,
+      then you will need to wait politely to the response few hours <br><br> Thank you! </div>
+      
+    
+    <div class="form col-md-12 " style="color: black;  font-size: 17px;">
+      <form method="post">
+      <label style="margin-left: -10" >Title</label>
+      <select required="required"  class="form-control">        
+        <option disabled="disabled" selected="selected">Select a Party to claim about</option>
+        <option >Kigali cunsult celebration</option>
+        <option>Raiderman Album host</option>
+        <option>STandad celebration </option>
+        <option>Kwitizina </option>
+      </select>
+      <label style="margin-left: -10" >Description</label>
+      <textarea required="required" class="form-control" placeholder="Describe your problem in not more than 300 letters"></textarea>
+      <br>
+      <button type="submit" class="btn btn-light btn-outline-secondary">Claim</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button type="reset" class="btn btn-light btn-outline-secondary">Cuncel</button>
+      </form>
+    </div>
+
+
+      </div>
+      
+
+</div>
+
+
+
+
+<script type="text/javascript" src="bootstrap.min.js"></script>
+  

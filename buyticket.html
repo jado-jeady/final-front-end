@@ -1,0 +1,130 @@
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<style type="text/css">
+	.formholder{
+		background-color: black;
+		height: 500px;
+		margin-left: 30px;
+    margin-top: 20px;
+		box-shadow: 0px 0px 50px 0px black;
+		border-radius: 9px;
+
+	}
+  .party{
+    margin-top: 40px;
+    height: 250px;
+   background-color: white;
+   width: 200px;
+   box-shadow: 0px 0px 10px 0px black;
+   margin-left: 20px;
+   float: left;
+  }
+  .img{
+    width: 200px;
+    height: 150;
+    border: bold;
+  }
+  .partypub{
+font-size: 14px;
+color: black;
+margin-top: 10px;
+line-height: 10px;
+text-align: center;
+  }
+   .partypub:hover{
+font-size: 15px;
+color: brown;
+text-align: center;
+  }
+</style>
+
+
+<div class="container-fluid bg-primary">
+
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link " href="homeuser.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="parties.html">Parties</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="buyticket.html" >Buy Ticket</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown " href="history.html" >History</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link dropdown " href="profile.html" >Profile</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html" >About Us</a>
+                </li>
+            </div>
+
+            <a href="profile.html"><img src="profile.png" width="60" height="60" style="margin-top: -10px;"></a><h4 style="color: white; margin-right: 100px;">Jeady</h4>
+              <form class="d-flex" >
+                <a href="index.html" class="btn btn-light btn-outline-secondary" style="width: 200px; margin-right: 30px;">Log Out</a>
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary btn-outline-light" type="submit">Search</button>
+              </form>
+          </div>
+        </nav>
+</div>
+
+
+<div class="row bg-light" style="margin-top: 70px; height: 700px;">
+  <br>
+  <div class="formholder col-md-7 bg-light" style="padding: 10px;"> <br>
+
+                <h1 class="h2" style=" color: gray; text-align: center;">Fill this form to Buy a Ticket</h1>
+                <form action="postprt.html" class="form col-md-11" style="margin-left: 30px;" method="POST">
+                   <label>Party Name</label>
+                  <select class="form-control">
+                    <option>Inter Judical Celebration</option>
+                    <option>Raider-man kamira ntare Album Host</option>
+                    <option>Kwitizina Ingagi </option>
+                    <option selected="selected">Select A Party Name</option>
+                    <option>20<sup>th</sup> Hero's day celebration  </option>
+                    
+                      
+                  </select>
+                  <label>Number Of Tickets</label>
+                  <select class="form-control">
+                    <option class="disbled" onselect="alert('a number')">SELECT NUMBEROF TICKETS</option>
+                    <script type="text/javascript">
+                      for (var i = 1; i < 20; i++) {
+                        document.write("<option>");
+                        document.write(i);
+                        document.write("</option>");
+                      }
+                    </script>
+                  </select>
+                  <label>Payment Method</label><br>
+                  <input type="radio" class="" name="">Mobile money
+                  <input type="radio" class="" name="">EPay
+                  <br>
+
+                  <label>Phone Number</label>
+                  <input type="text" name="Product" class="form-control"  required="required" placeholder="Your Phone number" ><br>
+                  <div style="display: flex;">
+                    <button class="btn btn-md btn-outline-secondary" type="reset" style="width: 50%;"> CUNCEL</button>
+                    <button class="btn btn-md btn-outline-secondary" type="submit" style="width: 50%;"> BUY</button>
+                  </div>
+                </form>
+              </div>
+
+</div>
+
+
+<script type="text/javascript" src="bootstrap.min.js"></script>
+  
