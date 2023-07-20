@@ -1,9 +1,9 @@
 <link rel="stylesheet" type="text/css" href="utils/bootstrap.min.css">
 <link rel="stylesheet" href="utils/style.css" type="text/css">
-<style type="text/css">
-	
+<script type="text/javascript" src="/utils/scripts.js">
 
-</style>
+</script>
+
 
 
 <div class="container-fluid">
@@ -13,15 +13,15 @@
 		</div>
 	</div>
 
-	<div class="row bg-light" style="height: 90vh; background-image: url(/images/7.jpg); background-size: cover;">
+	<div class="row bg-light" style="height: 90vh; background-image: url(images/7.jpg); background-size: cover;">
 		<div class="col-md-4 bg-secondary formholder">
 			<h1 align="center" class="col-md-11" style="margin-top: 20px; margin-left: 20px; color: whitesmoke; font-size: 28px;">Login</h1>
 			<form class="form col-md-11" style="margin-left: 20px; background-color: rgba(1, 2, 0.1);">
 				
-				<label>Username</label><input type="text" class="form-control" required="required" name="" placeholder="Your Username">
-				<label>Password</label><input type="Password" class="form-control" required="required" name="" placeholder="Your Password"><br><br>
-				<button class="btn btn-outline-light btn-secondary" type="submit" onclick="window.location.href='Views/homeuser.html'">User Login</button>
-				<button class="btn btn-outline-light btn-secondary" style="margin-left: 30px;" type="submit" onclick="window.location.href='homeadmin.html'">Admin Login</button><br><br>
+				<label>Username</label><input type="text" class="form-control" required="required" id="username" placeholder="Your Username">
+				<label>Password</label><input type="Password" class="form-control" id="password" required="required" name="" placeholder="Your Password"><br><br>
+				<button class="btn btn-outline-light btn-secondary" onclick='checkUser()'>User Login</button>
+				<button class="btn btn-outline-light btn-secondary" style="margin-left: 30px;" type="reset">Cuncel</button><br><br>
 				<a href="/Views/createacount.html" class="link" style="color: whitesmoke;">Create New Acount</a>
 				<a href="#" class="link" style="color: whitesmoke; margin-left: 20px;" onclick="alert('we use your email to reset passwords')"> Forgot Your Password</a>
 
@@ -33,4 +33,5 @@
 	</div> -->
 </div>
 
+	
 <script type="text/javascript" src="utils/bootstrap.js"></script>
