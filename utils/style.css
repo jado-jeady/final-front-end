@@ -1,0 +1,64 @@
+.formholder{
+    height: 400px;
+    margin-left: 650px;
+    opacity: 0.9;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0.3);
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 9px;
+
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: navajowhite;
+}
+.footer{
+    
+    padding: -100px;
+    background-color: rgb(35, 55, 73);
+    height: 10vh;
+}
+
+/* from the parties.html */
+.formholder{
+    background-color: ;
+    height: 500px;
+    border-radius: 9px;
+
+	}
+  .party{
+    margin-top: 10px;
+    height: 250px;
+   background-color: white;
+   width: 200px;
+   box-shadow: 0px 0px 10px 0px black;
+   margin-left: 20px;
+   float: left;
+  }
+  .img{
+    width: 200px;
+    height: 110px;
+    border: bold;
+  }
+  .img:hover{
+    transform: rotate(4deg);
+    transform: rotate(-4deg);
+    transition: 2s;
+    width: 200px;
+    height: 110px;
+    border: bold;
+  }
+  .labee{
+    color: white;
+    font-size: 13px;  
+  }
+   .partypub:hover{
+font-size: 15px;
+color: brown;
+line-height: 10px;
+text-align: center;
+  }
+  .btn{
+    margin-left: 10px;
+  }
